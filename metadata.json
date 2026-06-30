@@ -1,0 +1,6 @@
+{
+  "name": "EcoStilo & Fios de Fé",
+  "description": "Plataforma de moda sustentável, upcycling e transformação social feminina.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
