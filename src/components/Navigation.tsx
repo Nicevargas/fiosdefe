@@ -33,7 +33,7 @@ export default function Navigation({
   return (
     <nav
       id="main-navigation"
-      className="sticky top-0 z-40 border-b border-stone-200/80 bg-white shadow-xs"
+      className="sticky top-0 z-40 border-b border-stone-200/80 bg-[#f6f7f9] shadow-xs"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 justify-between items-center">

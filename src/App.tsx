@@ -109,28 +109,24 @@ export default function App() {
       </main>
 
       {/* 3. Footer Section */}
-      <footer id="main-footer" className="border-t border-stone-200 bg-white py-16">
+      <footer id="main-footer" className="border-t border-stone-200 bg-[#f6f7f9] py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 md:grid-cols-12">
             {/* Left Brand Column */}
             <div className="md:col-span-5 space-y-4">
-              <div className="flex items-center space-x-3">
-                <div className="h-10 w-10 overflow-hidden rounded-full border border-stone-200 bg-white shadow-sm">
-                  <img
-                    src={BRAND_IMAGES.favicon}
-                    alt="EcoStilo Icon"
-                    className="h-full w-full object-cover"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-                <div className="flex flex-col">
-                  <span className="font-sans text-sm font-bold tracking-tight text-stone-900">
-                    EcoStilo
-                  </span>
-                  <span className="font-serif text-[9px] font-medium tracking-wide text-emerald-800 uppercase leading-none">
-                    &amp; Fios de Fé
-                  </span>
-                </div>
+              <div
+                className="flex items-center cursor-pointer"
+                onClick={() => {
+                  setCurrentTab(ActiveTab.Home);
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
+                <img
+                  src={BRAND_IMAGES.logo}
+                  alt="EcoStilo & Fios de Fé Logo"
+                  className="h-14 w-auto object-contain transition-transform duration-300 hover:scale-102"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <p className="font-sans text-xs leading-relaxed text-stone-500 max-w-sm">
                 Uma iniciativa independente de moda circular regenerativa que resgata descartes têxteis denim, capacitando e acolhendo emocionalmente mulheres em situação de vulnerabilidade periférica.

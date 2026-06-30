@@ -7,8 +7,8 @@ import { Product, ArtisanStory, UpcyclingStep, TimelineMilestone } from "./types
 
 // Precise Google Usercontent images provided by the user, alongside premium Fallbacks
 export const BRAND_IMAGES = {
-  logo: "/src/assets/images/logo_1782839614808.jpg",
-  favicon: "/src/assets/images/favicon_1782839628299.jpg",
+  logo: "https://lh3.googleusercontent.com/aida-public/AB6AXuA4q6fxtegE6jqiDu_VahItjr9_9XKaiRRhMt0GSLooeaODFkJFhShHJLF17olckeulinbt9qLQfX-TnYJVUjUsf4xbxjOzXaFgQfcJfcyBfD8ZrHla-xqX23KhY9x7pmw1_VdiA-Y8o-Ef9jsjXX9JTwb6kcnkYCYtv0776tmiYQG1qp0jTO_9ohVdtekL1-ot6lrnWw5w5-zwJfwmcMhMMz_4m8ctEXLbA7zNYqFhiSaHwgcBvwcUTk27AQe_n9C6NxRl-tESrNc",
+  favicon: "https://github.com/Nicevargas/fiosdefe/blob/main/src/assets/images/icone_sf.png?raw=true",
   denimBagHero: "https://lh3.googleusercontent.com/aida-public/AB6AXuD8eogoN_XWCGh4e583W8Ij7wsljSqi8x5dJCUEupGL9lFKeE58CbthyMnBpD1uV4ARNH_VVr-F2zPT2LrXdVCgLA6zUTlgvMWCv-GJhwEYcI4FudGQ-ikVKy65RSHl_k3eKDF7mjsAHQSTOwEdTanLu6LgBk-KCCDv-wQvK6ht-nR27o5LOk_JhF13Xrzpox0AhtbJQyU6KMbhMFngDTwRrUKc4iVWLRbp44hDD-LXjfWsQAH5LxCluFlQPOgn2Og8IA9-1_tyXKw",
   socialIntegration: "https://lh3.googleusercontent.com/aida-public/AB6AXuAJxiRXdgZJIuIU4nOisCXNtPu1UI0OxzcaKwYkikYaANoO8KYPHNXveUEPCqMOQAQ1XU6z_gCKKFTfmB94JIJ9aT2E2R4RT5MBUicUsxihrzDEjmFnxoUaWGBG00BR0SeGxJK0I-qs-lmvkwMpR14hWqRgFtwzLDfn96P7nzdl5iiJ3Z-47-c5i4Mh67ysz2SSkIkzY96ObHJ2hqcrBvxh-SvkznSWqLjcspCa9YlfjliqEbGyllo1g-CiyymiPmMyFOAIcqMZ_AA",
   fashionModelJeans: "https://lh3.googleusercontent.com/aida-public/AB6AXuBiLAlcn7iFzRxA3nkkybjykbux3YO2o8no6ce44jWb8yLjtPgdEs3GAakzQfVZhlpW8L3SbyCCDiF5hDdWj6w4gNe0IMhkCxcgQRKdfKuDyXgMLMQZzxBcPZuT8rVX1Oxpjb-0_7ywiIOCwWATzmXEsQSiVu7vgJ_Uf3iYxDhnFfiMRNMMdQTd5m61FIJjqMjU2MkFCt8QlW3TJ2IjQBiQFe1a-13xBxkSutQoFaNrZBQPeRgmCnH4x_ScHl0Z4OVqdedYvCS2tXQ",
